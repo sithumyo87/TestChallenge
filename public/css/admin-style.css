@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700");
+
+@font-face {
+    font-family: 'Pyidaungsu';
+    src: url('../font/pyidaungsu/Pyidaungsu.eot');
+    src: url('../font/pyidaungsu/Pyidaungsu.eot?#iefix') format('embedded-opentype'),
+        url('../font/pyidaungsu/Pyidaungsu.woff') format('woff'),
+        url('../font/pyidaungsu/Pyidaungsu.ttf') format('truetype'),
+        url('../font/pyidaungsu/Pyidaungsu.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Rubik','Pyidaungsu' !important;
+}
+
+nav svg.w-5.h-5 {width: 12px;height: auto;}
+
+span.relative.z-0.inline-flex.shadow-sm.rounded-md {display: revert;}
+
+nav.flex.items-center.justify-between {display: flex;align-items: center;}
+
+.flex.justify-between.flex-1.sm\:hidden {flex-grow: 1;}
+
+nav.sidebar-nav a {
+    text-transform: capitalize;
+}
+
+.form-group label {
+    font-weight: 600;
+    font-size: 13px;
+}
+.navbar-header span {
+    color: #f34b58;
+    font-size: 15px;
+}
